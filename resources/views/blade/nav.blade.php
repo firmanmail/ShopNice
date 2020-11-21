@@ -16,7 +16,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="{{route('backend.index')}}" class="nav-link">Pesanan</a>
+                            <a href="{{route('backend.pesanan.index')}}" class="nav-link">Pesanan</a>
                         </li>
 
                         <li class="nav-item">

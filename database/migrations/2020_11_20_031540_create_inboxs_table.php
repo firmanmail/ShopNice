@@ -15,6 +15,14 @@ class CreateInboxsTable extends Migration
     {
         Schema::create('inboxs', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('kode_barang')->unique();
+            $table->string('nama');
+            $table->string('harga');
+            $table->string('jumlah');
+            $table->string('tanggal');
+            $table->string('pemesan');
+            $table->string('alamat');
+            $table->string('keterangan');
             $table->timestamps();
         });
     }

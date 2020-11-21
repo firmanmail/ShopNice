@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="mb-3">
-        <a href="{{route('backend.index')}}" class="btn btn-outline-primary">
+        <a href="{{route('backend.pesanan.index')}}" class="btn btn-outline-primary">
           Tambah Pesanan
       </a>
       </div>
