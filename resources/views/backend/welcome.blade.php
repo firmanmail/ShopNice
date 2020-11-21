@@ -2,27 +2,61 @@
 
 @section('content')
 <div class="container">
-  <div class="row">
+
+  <div class="row mb-2">
     <div class="col-md-12">
-      <div class="mb-3">
-      <div class="card border-0 shadow">
-        <div class="px-3 py-3">
-          <h4 class="text-muted">Master Pesanan</h4>
-        </div>
+      <div class="card border-0">
         <div class="card-body">
-          <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Barang Masuk</th>
-                    <th>Barang Masuk</th>
-                    <th>Barang Masuk</th>
-                </tr>
-            </thead>
-          </table>
+          <div class="d-flex pt-2">
+            <div>
+              <img src="{{asset('img/911f407913bdc1975937bffd9b740e8d.jpg')}}" alt="" class="" width="80" height="80" srcset="">
+                </div>
+                <div>
+                    <h3>Discusion View Input</h3>
+                    <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau type setting. Lorem Ipsum</p>
+              <button type="submit" class="btn btn-primary btn-lg btn-block">Beli Sekarang!!</button>
+            </div>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   </div>
+  <div class="row mb-2">
+    <div class="col-md-12">
+      <div class="card border-0">
+        <div class="card-body">
+          <div class="d-flex pt-2">
+            <div>
+              <img src="{{asset('img/911f407913bdc1975937bffd9b740e8d.jpg')}}" alt="" class="" width="80" height="80" srcset="">
+                </div>
+                <div>
+                    <h3>Discusion View Input</h3>
+                    <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau type setting. Lorem Ipsum</p>
+              <button type="submit" class="btn btn-primary btn-lg btn-block">Beli Sekarang!!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-2">
+    <div class="col-md-12">
+      <div class="card border-0">
+        <div class="card-body">
+          <div class="d-flex pt-2">
+            <div>
+              <img src="{{asset('img/911f407913bdc1975937bffd9b740e8d.jpg')}}" alt="" class="" width="80" height="80" srcset="">
+                </div>
+                <div>
+                    <h3>Discusion View Input</h3>
+                    <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau type setting. Lorem Ipsum</p>
+              <button type="submit" class="btn btn-primary btn-lg btn-block">Beli Sekarang!!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 @endsection

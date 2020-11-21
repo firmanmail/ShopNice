@@ -12,16 +12,23 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                        <div class="dropdown">
-                            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Info
-                            </a>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="{{route('backend.index')}}">Dashboard</a>
-                                    <a class="dropdown-item" href="{{route('backend.welcome')}}">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
+                            <a href="{{route('backend.welcome')}}" class="nav-link">Dashboard</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{{route('backend.index')}}" class="nav-link">Pesanan</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{{route('backend.barang.index')}}" class="nav-link">Barang Masuk</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Laporan</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Tentang</a>
                         </li>
                     </ul>
 

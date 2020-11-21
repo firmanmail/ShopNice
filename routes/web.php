@@ -22,5 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::group(['prefix' => 'backend'], function(){
     Route::get('index', 'SuplierController@index')->name('backend.index');
     Route::get('show', 'SuplierController@show')->name('backend.welcome');
-
+});
+Route::group(['prefix' => 'barang'], function(){
+    Route::get('index', 'MasukController@index')->name('backend.barang.index');
 });

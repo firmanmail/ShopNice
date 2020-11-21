@@ -12,7 +12,7 @@
 
       <div class="card border-0 shadow">
         <div class="px-3 py-3">
-          <h4 class="text-muted">Master Pesanan</h4>
+          <h4 class="text-muted">Tambah Pesanan</h4>
         </div>
         <div class="card-body">
           <table class="table table-bordered">
